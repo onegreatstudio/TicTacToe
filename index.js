@@ -1,7 +1,9 @@
 function setPlayerName() {
     var playerNameDiv = document.getElementById('playerName');
+    var playerNameTitle = document.getElementById('player1NameT');
 
     playerNameDiv.innerHTML = "Player 1 Name: " + document.getElementById('playerNameInput').value;
+    playerNameTitle.innerHTML = document.getElementById('playerNameInput').value + "'s Tic Tac Toe";
 
     // hide input field and button
     document.getElementById('divSetPlayerName').style.display = 'none';
