@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "compass-mixins": "^0.12.12",
+    "pug": "^3.0.2"
+  }
+}
